@@ -1,0 +1,51 @@
+body {
+    color: white;
+    background-image: url('img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.col {
+    margin: 100px;
+}
+
+.image:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+.counter {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 70px;
+    margin-bottom: 0;
+}
+
+.elems {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
